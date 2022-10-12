@@ -9,10 +9,14 @@ Then display the result, and use it for the next operation.
 ## Requirements
 
 1. **Create the layout:**
+
    - input at the top that acts as a display for our Calculator
    - 4 rows with 3 digits and 1 function button (except the last one is going to have 3 function bts and 1 digit)
+
 2. **Connect JS to the DOM:**
+
    - find a way to differentiate the click on digits from the function buttons
+
 3. **Application flow:**
    - insert the first operand
    - press the operation button

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #101335;
+  font-family: "Work Sans", sans-serif;
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: 60px;
+  color: inherit;
+  border-radius: 3px;
+  border: none;
+}
+
+#calculator {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  /* margin-block-start: 3rem; */
+  max-width: 416px;
+  margin-inline: auto;
+}
+
+#result {
+  width: calc(100% - 15px);
+  padding-inline-end: 12px;
+  margin-block-end: 4px;
+  height: 70px;
+  text-align: right;
+  background-color: white;
+  outline: none;
+  border: 0;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  margin-block-end: 4px;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: inset 0 4px 3px rgb(0 0 0 / 0.2);
+}
+
+.numeric-button,
+#result {
+  background-color: #efefef;
+}
+.function-button,
+.cancel-button,
+.result-button {
+  background-color: #8c3c8c;
+  color: #fbcffb;
+}
+
+#partialOperation {
+  font-size: 60px;
+  position: absolute;
+  color: #ebebeb;
+  top: 0;
+  right: 0;
+  transform: translateY(-100%);
+}
